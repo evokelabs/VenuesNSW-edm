@@ -26,10 +26,11 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
+$blue-color: #005bc6;
 $pre-color: #ff6908;
-$global-width: 580px;
+$global-width: 800px;
 $global-width-small: 95%;
-$global-gutter: 16px;
+$global-gutter: 40px;
 $body-background: $light-gray;
 $container-background: $white;
 $global-padding: 16px;
@@ -57,20 +58,20 @@ $block-grid-gutter: $global-gutter;
 $global-font-color: $black;
 $body-font-family: Helvetica, Arial, sans-serif;
 $global-font-weight: normal;
-$header-color: inherit;
-$global-line-height: 1.3;
-$global-font-size: 16px;
+$header-color: #00ce7e;
+$global-line-height: 155%;
+$global-font-size: 14px;
 $body-line-height: $global-line-height;
 $header-font-family: $body-font-family;
-$header-font-weight: $global-font-weight;
-$h1-font-size: 34px;
-$h2-font-size: 30px;
-$h3-font-size: 28px;
+$header-font-weight: bold;
+$h1-font-size: 20px;
+$h2-font-size: 22px;
+$h3-font-size: 22px;
 $h4-font-size: 24px;
 $h5-font-size: 20px;
 $h6-font-size: 18px;
-$header-margin-bottom: 10px;
-$paragraph-margin-bottom: 10px;
+$header-margin-bottom: 0px;
+$paragraph-margin-bottom: 26px;
 $small-font-size: 80%;
 $small-font-color: $medium-gray;
 $lead-font-size: $global-font-size * 1.25;
@@ -131,8 +132,8 @@ $callout-border-alert: 1px solid darken($alert-color, 20%);
 // 7. Menu
 // -------
 
-$menu-item-padding: 10px;
-$menu-item-gutter: 10px;
+$menu-item-padding: 0 25px;
+$menu-item-gutter: 0px;
 $menu-item-color: $primary-color;
 
 // 8. Thumbnail
